@@ -130,7 +130,8 @@ hr {
 	background-color: #608dfd;
 }
 .section-title {
-	margin-bottom: 70px;
+	margin-bottom: 20px;
+	float: left;
 }
 .section-title h2 {
 	position: relative;
@@ -241,16 +242,16 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 100px 0;
+	padding: 30px 0;
 }
 #about h3 {
 	font-size: 22px;
-	margin: 0 0 20px 0;
+	margin: 0 0 8px 0;
 }
 #about h2 {
 	position: relative;
-	margin-bottom: 15px;
-	padding-bottom: 15px;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
 }
 #about h2::after {
 	position: absolute;
@@ -283,8 +284,8 @@ header .intro-text {
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
 #about p {
-	line-height: 24px;
-	margin: 30px 0;
+	line-height: 22px;
+	margin: 10px 0px 20px 0px;
 }
 /* Services Section */
 #services {
@@ -415,7 +416,8 @@ header .intro-text {
 }
 /* Team Section */
 #team {
-	padding: 100px 0;
+	padding: 20px 0;
+	background: #f6f6f6;
 }
 #team h4 {
 	margin: 5px 0;

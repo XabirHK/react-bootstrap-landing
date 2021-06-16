@@ -6260,6 +6260,7 @@ button.close {
   display: none;
   float: left;
   width: 100%;
+  max-height: 550px;
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
