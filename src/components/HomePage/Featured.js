@@ -62,9 +62,6 @@ export default class Featured extends Component {
                 </div>
             </div>
         </div>
-
-                    
-         
     );
 
   }

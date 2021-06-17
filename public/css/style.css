@@ -131,7 +131,6 @@ hr {
 }
 .section-title {
 	margin-bottom: 20px;
-	float: left;
 }
 .section-title h2 {
 	position: relative;
@@ -337,12 +336,14 @@ header .intro-text {
 .portfolio-item {
 	margin: 1px -15px 0 -14px;
 	padding: 0;
+	position: relative;
 }
 .portfolio-item .hover-bg {
 	overflow: hidden;
 	position: relative;
 	margin: 0;
 }
+
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
@@ -388,6 +389,7 @@ header .intro-text {
 .testimonial {
 	position: relative;
 	padding: 20px;
+	text-align: left;
 }
 .testimonial-image {
 	float: left;

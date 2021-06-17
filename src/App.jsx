@@ -14,6 +14,7 @@ import Navbar from './components/HomePage/Navbar'
 import Carosal from './components/HomePage/Carosal'
 import About from './components/HomePage/About'
 import Featured from './components/HomePage/Featured'
+import Highlite from './components/HomePage/Highlight'
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -32,14 +33,15 @@ const App = () => {
       <Navbar />
       <About/>
       <Featured/>
+      <Highlite/>
       
       {/* <Header data={landingPageData.Header} /> */}
       {/* <Features data={landingPageData.Features} /> */}
       {/* <AboutUs data={landingPageData.About} /> */}
-      <Services data={landingPageData.Services} />
+      {/* <Services data={landingPageData.Services} />
       <Gallery />
       <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
+      <Team data={landingPageData.Team} /> */}
       <Contact data={landingPageData.Contact} />
     </div>
   )
