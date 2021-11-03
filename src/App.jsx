@@ -36,8 +36,8 @@ const App = () => {
       <Highlite/>
       
       {/* <Header data={landingPageData.Header} /> */}
-      {/* <Features data={landingPageData.Features} /> */}
-      {/* <AboutUs data={landingPageData.About} /> */}
+      {/* <Features data={landingPageData.Features} />
+      <AboutUs data={landingPageData.About} /> */}
       {/* <Services data={landingPageData.Services} />
       <Gallery />
       <Testimonials data={landingPageData.Testimonials} />
