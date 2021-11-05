@@ -53,7 +53,7 @@ export default class Carosal extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://bsqcap.com/wp-content/uploads/2015/04/london_skyline_at_night-wallpaper-1920x600.jpg"
+      src="img/banner/banner1.png"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -64,7 +64,7 @@ export default class Carosal extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://wallpapercave.com/wp/wp6415208.jpg"
+      src="img/banner/banner2.png"
       alt="Second slide"
     />
 
@@ -76,7 +76,7 @@ export default class Carosal extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://wallpapercave.com/wp/wp6415210.jpg"
+      src="img/banner/banner3.png"
       alt="Third slide"
     />
 
