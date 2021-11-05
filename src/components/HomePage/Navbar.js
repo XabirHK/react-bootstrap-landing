@@ -44,7 +44,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <nav id='menu' className='navbar navbar-default navbar-fixed-top'> {/*{//navbar-fixed-top}*/}
+      <nav id='menu' className='navbar navbar-default'> {/*{//navbar-fixed-top}*/}
       <div className='container'>
         <div className='navbar-header'>
           <button
@@ -59,16 +59,18 @@ export default class Navbar extends Component {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            নিশ্চিন্তপুর
-          </a>{' '}
+
+          <a className='navbar-brand' href='#page-top'>
+            <img src='img/logo/logo_transparent200.png' className='' alt='' />
+          </a>
+          
         </div>
 
         <div
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
         >
-          <ul className='nav navbar-nav navbar-right'>
+          <ul className='nav navbar-nav navbar-left'>
             {this.state.menuItems.map(
               (menuItem, i) =>
               <li key = {menuItem.categoryId} className="flex items-center">
@@ -81,39 +83,48 @@ export default class Navbar extends Component {
                 </a>
               </li>
             )}
+          </ul>
 
-            {/* <li>
-              <a href='#about' className='page-scroll'>
-                About
-              </a>
-            </li>
-            <li>
-              <a href='#services' className='page-scroll'>
-                Services
-              </a>
-            </li>
-            <li>
-              <a href='#portfolio' className='page-scroll'>
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a href='#team' className='page-scroll'>
-                Team
-              </a>
-            </li>
-            <li>
-              <a href='#contact' className='page-scroll'>
-                Contact
-              </a>
-            </li> */}
+          <ul className='nav navbar-nav navbar-right'>
+              <li className="flex items-center">
+                <a
+                  className="hover:text-gray-600 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href=""
+                > 
+                  <img src='img/social_media/fb.png' className='social-media-icon' alt='' />
+                </a>
+              </li>
+
+              <li className="flex items-center">
+                <a
+                  className="hover:text-gray-600 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href=""
+                > 
+                  <img src='img/social_media/insta.png' className='social-media-icon' alt='' />
+                </a>
+              </li>
+
+              <li className="flex items-center">
+                <a
+                  className="hover:text-gray-600 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href=""
+                > 
+                  <img src='img/social_media/youtube.png' className='social-media-icon' alt='' />
+                </a>
+              </li>
           </ul>
         </div>
+
+
+        {/* <div
+          className='collapse navbar-collapse'
+          id='bs-example-navbar-collapse-1'
+        >
+          
+        </div> */}
+
+
+
       </div>
     </nav>
     );

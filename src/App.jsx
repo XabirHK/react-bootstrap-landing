@@ -32,6 +32,7 @@ const App = () => {
       <Carosal />
       <Navbar />
       <About/>
+      
       <Featured/>
       <Highlite/>
       

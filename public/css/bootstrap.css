@@ -4055,6 +4055,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   top: auto;
   left: auto;
 }
+
+.social-media-icon{
+  width: 30px;
+  height: 30px;
+}
 @media (min-width: 768px) {
   .nav-tabs.nav-justified > li {
     display: table-cell;
@@ -4165,7 +4170,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 80px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -4181,7 +4186,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-collapse {
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 0px;
   overflow-x: visible;
   -webkit-overflow-scrolling: touch;
   border-top: 1px solid transparent;
@@ -4273,10 +4278,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 50px;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;  /* 50% of your logo width */
+  
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4284,6 +4289,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand > img {
   display: block;
+  margin-bottom:0px;
+  width: 100px;
+  height: 100px;
+
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
