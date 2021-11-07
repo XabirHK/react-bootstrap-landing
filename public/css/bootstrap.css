@@ -6246,6 +6246,9 @@ button.close {
 .carousel {
   position: relative;
 }
+.carousel h3 {
+  color: #fff;
+}
 
 .carousel.pointer-event {
   -ms-touch-action: pan-y;
