@@ -49,7 +49,7 @@ export default class Highlite extends Component {
         </div> */}
         <div className='row'>
             
-          <div className='col-sm-6 col-md-6 col-lg-6' style={{textAlign:'left'}}>
+          <div className='col-sm-8 col-md-8 col-lg-8' style={{textAlign:'left'}}>
           <h4>সাম্প্রতিক পোস্ট</h4>
             {this.state.topPosts
                     ? this.state.topPosts.map(
@@ -58,7 +58,7 @@ export default class Highlite extends Component {
                     <div className='testimonial'>
                         <div className='testimonial-image'>
                         {' '}
-                        <img src={topPost.primaryPicture == '' ? primaryPicture = "https://images.saatchiart.com/saatchi/809265/art/7274539/6343753-CUUCWJSM-7.jpg?auto=compress&cs=tinysrgb&h=350"  : primaryPicture = topPost.primaryPicture} alt='' />{' '}
+                          <img src={topPost.primaryPicture == '' ? primaryPicture = "https://images.saatchiart.com/saatchi/809265/art/7274539/6343753-CUUCWJSM-7.jpg?auto=compress&cs=tinysrgb&h=350"  : primaryPicture = topPost.primaryPicture} alt='' />{' '}
                         </div>
                         <div className='testimonial-content'>
                         <p>{`${ topPost.description.replace(/<[^>]+>/g, '').substring(0, 320)}...`}</p>
@@ -72,7 +72,7 @@ export default class Highlite extends Component {
 
           </div>
 
-          <div className='portfolio-items col-sm-6 col-md-6 col-lg-6' style={{textAlign:'left'}}>
+          <div className='portfolio-items col-sm-4 col-md-4 col-lg-4' style={{textAlign:'left'}}>
               <h4>ভিডিও সমূহ </h4>
             {this.state.topPosts
                     ? this.state.topPosts.map(
@@ -89,7 +89,7 @@ export default class Highlite extends Component {
                     <div className='hover-text'>
                       <h4>{topPost.title}</h4>
                     </div>
-                    <img style={{height:'200px'}}
+                    <img style={{minheight:'150px'}}
                       src={topPost.primaryPicture == '' ? primaryPicture = "https://images.saatchiart.com/saatchi/809265/art/7274539/6343753-CUUCWJSM-7.jpg?auto=compress&cs=tinysrgb&h=350"  : primaryPicture = topPost.primaryPicture}
                       className='img-responsive'
                       alt={topPost.title}

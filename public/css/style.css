@@ -378,7 +378,7 @@ header .intro-text {
 }
 /* Testimonials Section */
 #testimonials {
-	padding: 100px 0;
+	padding: 120px 0;
 	background: #f6f6f6;
 }
 #testimonials i {
@@ -397,9 +397,9 @@ header .intro-text {
 }
 .testimonial-image, .testimonial-image img {
 	display: block;
-	width: 64px;
-	height: 64px;
-	border-radius: 50%;
+	width: 180px;
+	height: 150px;
+	/* border-radius: 50%; */
 }
 .testimonial-content {
 	position: relative;
